@@ -45,7 +45,7 @@ const AboutSection = () => {
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                   I'm Gourav Acharjee, a B.Tech Computer Science Engineering student at Narula Institute of Technology.
                   My interest in technology began with curiosity about how data and applications work, which led me into
-                  full stack development and data analytics.
+                  web development and data analytics.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                   I have worked on projects like a Library Management System and my own portfolio website,

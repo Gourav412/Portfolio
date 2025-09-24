@@ -22,8 +22,8 @@ const ContactSection = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       name: "Email",
-      username: "gouravacharjee11@email.com",
-      href: "mailto:gouravacharjee11@email.com"
+      username: "gouravacharjee11@gmail.com",
+      href: "mailto:gouravacharjee11@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,

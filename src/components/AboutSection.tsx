@@ -11,7 +11,7 @@ const AboutSection = () => {
     },
     {
       icon: <Code className="w-8 h-8 text-secondary" />,
-      title: "Full Stack Developer",
+      title: "Web Developer",
       description:
         "Skilled in React, Node.js, and modern web technologies to create functional and user-friendly applications."
     },

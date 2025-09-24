@@ -48,7 +48,7 @@ const HeroSection = () => {
           {/* Subtitle */}
           <div className="animate-slide-in" style={{ animationDelay: '0.4s' }}>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light">
-              Machine Learning, Data Analytics & Full Stack Development Enthusiast
+              Machine Learning, Data Analytics & Web Development Enthusiast
             </p>
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
               CSE student with expertise in Python, Power BI, MongoDB, and modern web technologies.

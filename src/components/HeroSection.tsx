@@ -94,7 +94,7 @@ const HeroSection = () => {
               </a>
             </Button>
             <Button asChild variant="ghost" size="sm" className="text-muted-foreground hover:text-primary">
-              <a href="mailto:gouravacharjee11@email.com">
+              <a href="mailto:gouravacharjee11@gmail.com">
                 <Mail className="w-6 h-6" />
               </a>
             </Button>

@@ -28,12 +28,12 @@ const ProjectsSection = () => {
       links: {
         github: "https://github.com/Gourav412/Sales-Performance-Dashboard-PowerBI"
       }
-    }
+    }, // <-- This comma was missing
     {
       title: "Loan Approval Prediction",
       description:
         "A machine learning system built with Python and Scikit-learn to automate the financial loan approval process by predicting application outcomes.",
-      image: "📦",
+      image: "💰", // Changed emoji to be more relevant
       technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Seaborn"],
       category: "Machine Learning",
       status: "Completed",
@@ -43,7 +43,8 @@ const ProjectsSection = () => {
     }
   ];
 
-  const categories = ["All"];
+  // Dynamically get categories from projects, including "All"
+  const categories = ["All", ...new Set(projects.map((p) => p.category))];
 
   return (
     <section id="projects" className="py-32">
@@ -55,7 +56,8 @@ const ProjectsSection = () => {
               Featured <span className="gradient-text">Projects</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              A showcase of my Power BI projects showcasing real-world business insights
+              {/* Updated subtitle to be more general */}
+              A showcase of my projects, from data analysis dashboards to machine learning models.
             </p>
           </div>
 
@@ -64,8 +66,8 @@ const ProjectsSection = () => {
             {categories.map((category, index) => (
               <Button
                 key={index}
-                variant="default"
-                className="bg-primary text-primary-foreground"
+                variant="default" // You might want to change this to 'outline' and highlight the active one
+                className="bg-primary text-primary-foreground" // This styles all buttons as "selected"
               >
                 {category}
               </Button>
@@ -88,8 +90,11 @@ const ProjectsSection = () => {
                   {project.image}
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center backdrop-blur-sm">
                     <div className="text-center">
-                      <div className="text-4xl mb-2">🔗</div>
-                      <span className="text-white font-medium">View Project</span>
+                      {/* You could make this a link as well */}
+                      <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="text-white font-medium">
+                        <div className="text-4xl mb-2">🔗</div>
+                        <span>View Project</span>
+                      </a>
                     </div>
                   </div>
                 </div>

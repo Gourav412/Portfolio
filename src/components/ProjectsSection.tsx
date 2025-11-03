@@ -29,6 +29,18 @@ const ProjectsSection = () => {
         github: "https://github.com/Gourav412/Sales-Performance-Dashboard-PowerBI"
       }
     }
+    {
+      title: "Loan Approval Prediction",
+      description:
+        "A machine learning system built with Python and Scikit-learn to automate the financial loan approval process by predicting application outcomes.",
+      image: "📦",
+      technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Seaborn"],
+      category: "Machine Learning",
+      status: "Completed",
+      links: {
+        github: "https://github.com/Gourav412/Loan-Approval-Prediction"
+      }
+    }
   ];
 
   const categories = ["All"];

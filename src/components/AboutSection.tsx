@@ -143,7 +143,7 @@ const AboutSection = () => {
           {/* Stats */}
           <div className="mt-20 grid grid-cols-2 gap-8">
             {[
-              { number: "2", label: "Projects Completed" },
+              { number: "3", label: "Projects Completed" },
               { number: "10+", label: "Technologies Learned" }
             ].map((stat, index) => (
               <div

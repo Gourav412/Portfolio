@@ -99,7 +99,7 @@ const AboutSection = () => {
                   degree: "B.Tech in Computer Science Engineering",
                   institution: "Narula Institute of Technology",
                   scoreLabel: "CGPA (6th Sem):",
-                  scoreValue: "7.51"
+                  scoreValue: "7.75"
                 },
                 {
                   degree: "Higher Secondary (Pure Science Domain)",

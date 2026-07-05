@@ -98,19 +98,19 @@ const AboutSection = () => {
                 {
                   degree: "B.Tech in Computer Science Engineering",
                   institution: "Narula Institute of Technology",
-                  scoreLabel: "CGPA (6th Sem):",
+                  scoreLabel: "CGPA :",
                   scoreValue: "7.75"
                 },
                 {
                   degree: "Higher Secondary (Pure Science Domain)",
                   institution: "New Barrackpore Colony Boys High School",
-                  scoreLabel: "Percentage:",
+                  scoreLabel: "Percentage :",
                   scoreValue: "77.33%"
                 },
                 {
                   degree: "Secondary",
                   institution: "New Barrackpore Colony Boys High School",
-                  scoreLabel: "Percentage:",
+                  scoreLabel: "Percentage :",
                   scoreValue: "84.14%"
                 }
               ].map((edu, index) => (
